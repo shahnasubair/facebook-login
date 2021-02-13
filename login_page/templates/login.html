@@ -12,148 +12,149 @@
 
 </head>
 
-body>
-<!-- head section -->
-<div class="container-fluid">
-    <div class="row fbhead">
-        <!-- logo section -->
-        <div class="col-lg-6 ">
+<body>
+    <!-- head section -->
+    <!-- head section -->
 
-            <img src=" {% static 'images/fb.png' %}" class="logo">
+    <div class="container-fluid">
+        <div class="row fbhead">
+            <!-- logo section -->
+            <div class=" col-lg-6 ">
 
-        </div>
-        <!--login section  -->
-        <div class="col-lg-6">
-            <div class="form-row">
-                <!-- username -->
-                <div class="col-lg-5">
-                    <div class="form-group email">
-                        <label for="email" class="email">Email or Phone</label>
-                        <input type="text" name="" id="" class="form-control e-p">
-                        <!-- checkbox -->
-                        <div class="form-group form-check check">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                            <label class="form-check-label tickmark" for="flexCheckDefault">Keep me logged in</label>
+                <a href="fblogin.html" class="logo">
+                    <b style="padding-top: 0px;">facebook</b>
+                </a>
 
+            </div>
+            <!--login section  -->
+            <div class="  col-lg-6">
+                <div class="form-row">
+                    <!-- username -->
+                    <div class=" col-lg-5">
+                        <div class="form-group email">
+                            <label for="email" class="email">Email or Phone</label>
+                            <input type="text" name="" id="" class="form-control e-p">
+                            <!-- checkbox -->
+                            <div class="form-group form-check check ">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label tickmark" for="flexCheckDefault">Keep me logged in</label>
+
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- password session -->
-                <div class="col-lg-5 ">
-                    <div class="form-group password">
-                        <label class="pass">Password</label>
-                        <input type="password" name="" id="" class="form-control e-p">
-                        <a href=" #" class="tickmark">forgotten account?</a>
+                    <!-- password session -->
+                    <div class="col-lg-5 ">
+                        <div class="form-group password">
+                            <label class="pass">Password</label>
+                            <input type="password" name="" id="" class="form-control e-p">
+                            <a href=" #" class="tickmark">forgotten account?</a>
 
+
+                        </div>
 
                     </div>
+                    <!-- login button -->
+                    <div class=" col-lg-2  ">
+                        <button type="submit" class="btn login">Log In</button>
 
-                </div>
-                <!-- login button -->
-                <div class="col-lg-2  ">
-                    <button type="submit" class="btn login">Log In</button>
-
+                    </div>
                 </div>
             </div>
-        </div>
 
+        </div>
     </div>
     <!-- second section -->
-    <div class="row second ">
-        <div class="col-lg-5 picture ">
-            <b><p>Facebook helps you connect and share with the people <br>in your life</p></b>
-            <img src="{% static 'images/fb2.png' %}" alt=" ">
+    <div class="container-fluid">
+        <div class="row second ">
+            <div class="  col-lg-5 picture ">
+                <b><p>Facebook helps you connect and share with the people <br>in your life</p></b>
+                <img src="{% static 'images/fb2.png' %} " alt=" " class="img-fluid">
 
-        </div>
-        <div class="col-lg-7 " style="padding: 30px  20px 30px 90px;">
-            <b><h1>Create an account</h1></b>
-            <p>it's free and always will be</p>
-            <form class="row g-3">
-                <div class="col-md-6 bottom">
+            </div>
+            <div class=" col-lg-7" style="padding: 30px  20px 30px 90px;">
+                <b><h1>Create an account</h1></b>
+                <p>it's free and always will be</p>
+                <form class="row g-3">
+                    <div class="col-md-6 bottom">
 
-                    <input type="text" class="form-control " id="fname" placeholder="First name">
+                        <input type="text" class="form-control " id="fname" placeholder="First name">
+                    </div>
+                    <div class="col-md-6 bottom">
+
+                        <input type="password" class="form-control b" id="sname" placeholder="Surname">
+                    </div>
+                    <div class="col-12 bottom">
+
+                        <input type="text" class="form-control" id="email" placeholder="Mobile number or Email address">
+                    </div>
+                    <div class="col-12 bottom">
+
+                        <input type="text" class="form-control" id="re-enter" placeholder="Re-Enter Mobile number or Email address">
+                    </div>
+                    <div class="col-12 bottom">
+
+                        <input type="password" class="form-control" id="pas" placeholder="New Password">
+                    </div>
+
+                </form>
+                <div>
+                    <label style="font-size: x-large;">Birthday</label>
+                    <div class="bottom select-cls">
+                        <select class="form-select">
+                    <option>Day</option>
+                    <option value="1 ">1</option>
+                    <option value="2 ">2</option>
+                    <option value="3 ">3</option>
+                    <option value="4 ">4</option>
+                    <option value="5 ">5</option>
+                    </select>
+                        <select class="form-select">
+                    <option>Month</option>
+                    <option value="1 ">january</option>
+                    <option value="2 ">february</option>
+                    <option value="3 ">march</option>
+                    <option value="4 ">april</option>
+                    <option value="5 ">may</option>
+                    </select>
+                        <select class="form-select">
+                    <option>Year</option>
+
+                    <option value="1 ">1990</option>
+                    <option value="2 ">1991</option>
+                    <option value="3 ">1992</option>
+                    <option value="4 ">1993</option>
+                    <option value="5 ">1994</option>
+                    </select>
+                        <a href="# "> <small>why do I need to provide my date of birth?</small></a>
+                    </div>
                 </div>
-                <div class="col-md-6 bottom">
-
-                    <input type="password" class="form-control b" id="sname" placeholder="Surname">
-                </div>
-                <div class="col-12 bottom">
-
-                    <input type="text" class="form-control" id="email" placeholder="Mobile number or Email address">
-                </div>
-                <div class="col-12 bottom">
-
-                    <input type="text" class="form-control" id="re-enter" placeholder="Re-Enter Mobile number or Email address">
-                </div>
-                <div class="col-12 bottom">
-
-                    <input type="password" class="form-control" id="pas" placeholder="New Password">
-                </div>
-
-            </form>
-            <div>
-                <label style="font-size: x-large;">Birthday</label>
                 <div class="bottom select-cls">
-                    <select class="form-select">
-                        <option>Day</option>
-                        <option value="1 ">1</option>
-                        <option value="2 ">2</option>
-                        <option value="3 ">3</option>
-                        <option value="4 ">4</option>
-                        <option value="5 ">5</option>
-                        </select>
-                    <select class="form-select">
-                        <option>Month</option>
-                        <option value="1 ">january</option>
-                        <option value="2 ">february</option>
-                        <option value="3 ">march</option>
-                        <option value="4 ">april</option>
-                        <option value="5 ">may</option>
-                        </select>
-                    <select class="form-select">
-                        <option>Year</option>
-
-                        <option value="1 ">1990</option>
-                        <option value="2 ">1991</option>
-                        <option value="3 ">1992</option>
-                        <option value="4 ">1993</option>
-                        <option value="5 ">1994</option>
-                        </select>
-                    <a href="# "> <small>why do I need to provide my date of birth?</small></a>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1">Female</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">Male</label>
+                    </div>
+                </div>
+                <div class="bottom" style="font-size: xx-small; color: #666666;">
+                    <p>By clicking create an account you agree to our <a href="# ">Terms</a> and that you<br> have read our <a href="# ">data policy</a>, including our <a href="# ">Cookie Use</a>
+                    </p>
+                </div>
+                <div style="padding-bottom: 30px;">
+                    <button type="button" class="btn-lg crt-btn">Create an account</button>
+                </div>
+                <div>
+                    <small><b><a href="# ">create a page</a> for a celebrity,brand or buisness</b></small>
                 </div>
             </div>
-            <div class="bottom select-cls">
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                    <label class="form-check-label" for="inlineRadio1">Female</label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                    <label class="form-check-label" for="inlineRadio2">Male</label>
-                </div>
-            </div>
-            <div class="bottom" style="font-size: xx-small; color: #666666;">
-                <p>By clicking create an account you agree to our <a href="# ">Terms</a> and that you<br> have read our <a href="# ">data policy</a>, including our <a href="# ">Cookie Use</a>
-                </p>
-            </div>
-            <div style="padding-bottom: 30px;">
-                <button type="button" class="btn-lg crt-btn">Create an account</button>
-            </div>
-            <div>
-                <small><a href="# ">create a page</a> for a celebrity,brand or buisness</small>
-            </div>
-
 
 
         </div>
 
     </div>
-    <footer>
-
-    </footer>
-
-</div>
 </body>
 
 </html>
